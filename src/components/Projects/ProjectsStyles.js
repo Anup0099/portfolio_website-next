@@ -27,9 +27,7 @@ export const BlogCard = styled.div`
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    width: 100%;
-  }
+ 
 `;
 export const TitleContent = styled.div`
   text-align: center;
@@ -69,8 +67,9 @@ export const Intro = styled.div`
 export const CardInfo = styled.p`
   width: 100%;
   padding: 0 50px;
-  color: #e4e6e7;
-  font-style: 2rem;
+  color: black;
+  
+  font-style: 2rem ;
   line-height: 24px;
   text-align: justify;
   @media ${(props) => props.theme.breakpoints.sm} {
@@ -107,6 +106,6 @@ justify-content: space-around;
 padding: 2rem;
 `
 export const Tag = styled.li`
-color: #d8bfbf;
+color: black;
 font-size: 1.5rem;
 `

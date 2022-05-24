@@ -19,7 +19,7 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
-const projectDemo=[
+const projectDemo = [
   {
     title: "Project 1",
     description: "this a site of hotel booking app",
@@ -38,17 +38,30 @@ const Projects = (props) => (
     <SectionDivider></SectionDivider>
     <SectionTitle main>Projects</SectionTitle>
     <GridContainer>
-    {projects.map((project) => (
-      <BlogCard key={project.id}>
-        <Img src={project.image} alt={project.title} />
-       
-          <TitleContent>{project.title}</TitleContent>
+      {projects.map(
+        ({ id, image, title, description, tags, source, visit }) => (
+          <BlogCard key={id}>
+            <Img src={image} />
 
-         
-
-      
-      </BlogCard>
-    ))}
+            <TitleContent>
+              <HeaderThree>{title}</HeaderThree>
+              <Hr />
+            </TitleContent>
+            <CardInfo>{description}</CardInfo>
+            <div>
+              <TagList>
+                {tags.map((tag, i) => (
+                  <Tag key={i}>{tag}</Tag>
+                ))}
+              </TagList>
+            </div>
+            <UtilityList>
+              <ExternalLinks href={visit}> Code</ExternalLinks>
+              <ExternalLinks href={source}> Code</ExternalLinks>
+            </UtilityList>
+          </BlogCard>
+        )
+      )}
     </GridContainer>
   </Section>
 );
