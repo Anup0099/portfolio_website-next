@@ -8,8 +8,8 @@ const Hero = (props) => (
   <Section row nopadding>
      <LeftSection>
       <SectionTitle main center>
-        <h1>Hi, I'm Anup</h1>
-        <h2>I'm a Full Stack Developer</h2>
+        <h1 >Hi, I'm Anup</h1>
+        <h2 >I'm a Full Stack Developer</h2>
       </SectionTitle>
       <SectionText>
         <p>
@@ -18,7 +18,7 @@ const Hero = (props) => (
         </p>
         </SectionText>
         <Button onClick={()=>{
-         window.location.href='#projects'
+         window.location.href='https://github.com/Anup0099'
         }}>
         Learn More
 

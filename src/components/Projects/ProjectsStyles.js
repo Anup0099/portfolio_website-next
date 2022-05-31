@@ -67,7 +67,7 @@ export const Intro = styled.div`
 export const CardInfo = styled.p`
   width: 100%;
   padding: 0 50px;
-  color: black;
+  color: white;
   
   font-style: 2rem ;
   line-height: 24px;

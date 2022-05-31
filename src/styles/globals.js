@@ -3,7 +3,6 @@ import { normalize } from 'styled-normalize';
 
 const GlobalStyles = createGlobalStyle`
   ${normalize};
-
   * {
     box-sizing: border-box;
     margin: 0;
@@ -12,7 +11,6 @@ const GlobalStyles = createGlobalStyle`
   html {
     font-size: 62.5%;
     scroll-behavior: smooth;
-
   }
   body {
     font-family: ${props => props.theme.fonts.main};
@@ -20,7 +18,6 @@ const GlobalStyles = createGlobalStyle`
     background: ${props => props.theme.colors.background1};
     color: ${props => props.theme.colors.primary1};
     cursor: default;
-
   }
   h1,h2,h3,h4,h5,h6,button {
     font-family: ${props => props.theme.fonts.title};
@@ -31,7 +28,6 @@ const GlobalStyles = createGlobalStyle`
   li{
     list-style: none;
   }
-
 `;
 
 export default GlobalStyles;
