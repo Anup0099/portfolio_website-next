@@ -8,7 +8,7 @@ const data = [
   { number: 1000, text: 'Students', },
   { number: 1900, text: 'Github Followers', },
   { number: 5000, text: 'Github Stars', }
-];
+];  // data for the boxes in the Acomplishments section
 
 const Acomplishments = () => (
   <Section>

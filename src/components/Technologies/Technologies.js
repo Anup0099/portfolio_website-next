@@ -1,5 +1,5 @@
 import React from "react";
-import { DiFirebase, DiReact, DiZend, DiNodejsSmall ,DiJava} from "react-icons/di";
+import { DiFirebase, DiReact, DiZend, DiNodejsSmall ,DiJava,DiDatabase} from "react-icons/di";
 import {
   Section,
   SectionDivider,
@@ -40,10 +40,10 @@ const Technologies = () => (
       </ListItem>
 
       <ListItem>
-        <DiNodejsSmall size={50} />
+        <DiDatabase size={50} />
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
-          <ListParagraph>Exprience with node.js</ListParagraph>
+          <ListTitle>Database</ListTitle>
+          <ListParagraph>Exprience with mongodb,sql</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>

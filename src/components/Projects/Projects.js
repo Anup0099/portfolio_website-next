@@ -19,20 +19,7 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
-const projectDemo = [
-  {
-    title: "Project 1",
-    description: "this a site of hotel booking app",
-  },
-  {
-    title: "Project 2",
-    description: "this a site of hotel booking app",
-  },
-  {
-    title: "Project 3",
-    description: "this a site of hotel booking app",
-  },
-];
+
 const Projects = (props) => (
   <Section nopadding id="projects">
     <SectionDivider></SectionDivider>

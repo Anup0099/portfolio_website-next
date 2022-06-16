@@ -18,24 +18,25 @@
     id: 1,
   },
   {
-    title: 'WebRTC App',
-    description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.jpg',
-      tags: ['React', 'WebRTC'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Medical Pager',
+    description: "It is a app for consulting among doctors.It is a pager app that allows users to consult among doctors.",
+      image: '/images/medical.gif',
+      tags: ['React', 'Nodejs'],
+    source: 'https://github.com/DSN-2/medical-pager',
+    visit: 'medical-pager-2022.netlify.app/',
     id: 2,
   },
   {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'rock-paper-scissors',
+    description: "It is a game that allows users to play rock paper scissors with each other.",
+    image: '/images/rockpaper.gif',
+    tags: ['JavaScript', 'css'],
+    source: 'https://github.com/Anup0099/Rock-Paper-Scissors',
+    visit: 'gallant-spence-add7f5.netlify.app/',
     id: 3,
   },
 ];
+ 
 
 export const TimeLineData = [
   { year: 2017, text: 'Started my journey', },
