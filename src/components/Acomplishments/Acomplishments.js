@@ -1,22 +1,25 @@
-import React from 'react';
+import React from "react";
 
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { Box, Boxes, BoxNum, BoxText } from './AcomplishmentsStyles';
+import {
+  Section,
+  SectionDivider,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
+import { AiFillInstagram, AiFillBook } from "react-icons/ai";
+import { SocialIcons } from "../Header/HeaderStyles";
+import { SocialIconsContainer } from "../Footer/FooterStyles";
 
-const data = [
-  { number: 20, text: 'Open Source Projects'},
-  { number: 1000, text: 'Students', },
-  { number: 1900, text: 'Github Followers', },
-  { number: 5000, text: 'Github Stars', }
-];  // data for the boxes in the Acomplishments section
+import { FaBloggerB } from "react-icons/fa";
 
 const Acomplishments = () => (
   <Section>
-  <SectionTitle> Personal Acomplishments</SectionTitle>
-  <Boxes> 
-  
-  </Boxes>
-    
+    <SectionTitle> Personal Blogs</SectionTitle>
+    <SocialIconsContainer>
+      <SocialIcons href="">
+        <FaBloggerB size="3rem" />
+      </SocialIcons>
+    </SocialIconsContainer>
   </Section>
 );
 
