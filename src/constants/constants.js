@@ -1,11 +1,12 @@
 export const projects = [
   {
     title: 'Study Verse',
-    description: ' Study Verse is an online learning platform.We have used React with Tailwind to implement the frontend part and NodeJS, MongoDB for the backend part ',
+    description:
+      ' Study Verse is an online learning platform.We have used React with Tailwind to implement the frontend part and NodeJS, MongoDB for the backend part ',
     image: '/images/study.jpg',
     tags: [' React', 'Css', 'MongoDB', 'Express', 'Nodejs'],
-    source: 'https://github.com/Anup0099/portfolio_website-next',
-    visit: 'https://github.com/Anup0099/portfolio_website-next',
+    source: 'https://github.com/DSN3099',
+    visit: 'https://github.com/DSN3099',
     id: 0,
   },
 
