@@ -1,5 +1,5 @@
  export const projects = [
-  
+
   {
     title: 'Restaurant App',
     description: "Using React, Css.this app is a restaurant app that allows users to order food and also view the menu.Any restaurant can use this app to move their  buisness online.",
@@ -40,10 +40,7 @@
  
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
-  { year: 2021, text: 'Started my own platform', },
+   { year: 2020, text: 'Started my journey', },
+  { year: 2021, text: 'Learned HTML , CSS and JavaScript and made some basic projects', },
+  { year: 2022, text:'Learned React.js and Node.js and made some full stack projects', },
 ];
