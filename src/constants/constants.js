@@ -1,4 +1,5 @@
  export const projects = [
+  
   {
     title: 'Restaurant App',
     description: "Using React, Css.this app is a restaurant app that allows users to order food and also view the menu.Any restaurant can use this app to move their  buisness online.",

@@ -14,9 +14,12 @@ import { FaBloggerB } from "react-icons/fa";
 
 const Acomplishments = () => (
   <Section>
-    <SectionTitle> Personal Blogs</SectionTitle>
+    <SectionTitle> Personal Blogs
+    
+    </SectionTitle>
+
     <SocialIconsContainer>
-      <SocialIcons href="">
+      <SocialIcons href="https://dev.to/anuppal48672810">
         <FaBloggerB size="3rem" />
       </SocialIcons>
     </SocialIconsContainer>
