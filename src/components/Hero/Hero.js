@@ -1,35 +1,38 @@
-import React from "react";
+import React from 'react'
 
 import {
   Section,
   SectionText,
   SectionTitle,
-} from "../../styles/GlobalComponents";
-import Button from "../../styles/GlobalComponents/Button";
-import { LeftSection } from "./HeroStyles";
+} from '../../styles/GlobalComponents'
+import Button from '../../styles/GlobalComponents/Button'
+import { LeftSection } from './HeroStyles'
 
 const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        <h3>Hi, I'm Anup</h3>
-        <h4>I'm an aspiring Full Stack Developer</h4>
+        <h3>Welcome To My Personal Portfolio</h3>
+        {/* <h5 style={{ marginTop: '5px' }}>
+          I'm an aspiring Full Stack Developer
+        </h5> */}
       </SectionTitle>
       <SectionText>
         <p>
-          I'm a frontend developer with a passion for building beautiful and
-          functional web applications.
+          I am Anup Pal, an engineering student at VIT bhopal pursuing my B.Tech
+          in Computer Science and Engineering. I'm an aspiring Full Stack
+          Developer.
         </p>
       </SectionText>
       <Button
         onClick={() => {
-          window.location.href = "https://github.com/Anup0099";
+          window.location.href = 'https://leetcode.com/Anup009/'
         }}
       >
-        Learn More
+        Coding Profile
       </Button>
     </LeftSection>
   </Section>
-);
+)
 
-export default Hero;
+export default Hero

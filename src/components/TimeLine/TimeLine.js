@@ -105,7 +105,7 @@ const Timeline = () => {
               active={activeItem}
               onClick={(e) => handleClick(e, index)}
               type="button">
-              <CarouselButtonDot active={activeItem} />
+              {/* <CarouselButtonDot active={activeItem} /> */}
             </CarouselButton>
           );
         })}

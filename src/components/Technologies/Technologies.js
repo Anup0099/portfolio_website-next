@@ -1,18 +1,29 @@
-import React from "react";
-import { DiFirebase, DiReact, DiZend, DiNodejsSmall ,DiJava,DiDatabase} from "react-icons/di";
+import React from 'react'
+import {
+  DiFirebase,
+  DiReact,
+  DiZend,
+  DiNodejsSmall,
+  DiJava,
+  DiDatabase,
+  DiNodejs,
+  DiMongodb,
+  DiHtml5,
+} from 'react-icons/di'
+import { SiCplusplus, SiMysql, SiNextDotJs } from 'react-icons/si'
 import {
   Section,
   SectionDivider,
   SectionText,
   SectionTitle,
-} from "../../styles/GlobalComponents";
+} from '../../styles/GlobalComponents'
 import {
   List,
   ListContainer,
   ListItem,
   ListParagraph,
   ListTitle,
-} from "./TechnologiesStyles";
+} from './TechnologiesStyles'
 
 const Technologies = () => (
   <Section id="tech">
@@ -24,7 +35,11 @@ const Technologies = () => (
     </SectionText>
     <List>
       <ListItem>
-        <DiReact size={50} />
+        <picture>
+          <DiHtml5 size={50} />
+          <DiReact size={50} />
+          <SiNextDotJs size={50} />
+        </picture>
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>Exprience with reactjs</ListParagraph>
@@ -32,7 +47,7 @@ const Technologies = () => (
       </ListItem>
 
       <ListItem>
-        <DiZend size={50} />
+        <DiNodejsSmall size={50} />
         <ListContainer>
           <ListTitle>Backend-End</ListTitle>
           <ListParagraph>Exprience with nodejs</ListParagraph>
@@ -40,21 +55,30 @@ const Technologies = () => (
       </ListItem>
 
       <ListItem>
-        <DiDatabase size={50} />
+        <picture>
+          <DiFirebase size={50} />
+          <SiMysql size={50} />
+          <DiMongodb size={50} />
+        </picture>
         <ListContainer>
           <ListTitle>Database</ListTitle>
           <ListParagraph>Exprience with mongodb,sql</ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiJava size={50} />
+        <picture>
+          <DiJava size={50} />
+          <SiCplusplus size={50} />
+        </picture>
         <ListContainer>
-          <ListTitle>Java</ListTitle>
+          <picture>
+            <ListTitle>Java,CPP</ListTitle>
+          </picture>
           <ListParagraph>Exprience with Java</ListParagraph>
         </ListContainer>
       </ListItem>
     </List>
   </Section>
-);
+)
 
-export default Technologies;
+export default Technologies

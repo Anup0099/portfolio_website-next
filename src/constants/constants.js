@@ -4,16 +4,16 @@ export const projects = [
     description:
       ' Study Verse is an online learning platform.We have used React with Tailwind to implement the frontend part and NodeJS, MongoDB for the backend part ',
     image: '/images/study.jpg',
-    tags: [' React', 'Css', 'MongoDB', 'Express', 'Nodejs'],
+    tags: [' React', 'Stripe', 'MongoDB', 'Express', 'Nodejs'],
     source: 'https://github.com/DSN3099',
-    visit: 'https://github.com/DSN3099',
+    visit: 'https://studyverse.netlify.app',
     id: 0,
   },
 
   {
     title: 'Restaurant App',
     description:
-      'Using React, Css.this app is a restaurant app that allows users to order food and also view the menu.Any restaurant can use this app to move their  buisness online.',
+      'Using React, Css.This app is a restaurant app that allows users to order food and also view the menu.Any restaurant can use this app to move their  buisness online.',
     image: '/images/re.gif',
     tags: [' React', 'Css'],
     source: 'https://github.com/Anup0099/Restaurant',
@@ -33,7 +33,7 @@ export const projects = [
   {
     title: 'Medical Pager',
     description:
-      'It is a app for consulting among doctors.It is a pager app that allows users to consult among doctors.',
+      'It is a app for consulting among doctors.It is a web app that allows users to consult among doctors.',
     image: '/images/medical.gif',
     tags: ['React', 'Nodejs'],
     source: 'https://github.com/DSN-2/medical-pager',
@@ -53,7 +53,7 @@ export const projects = [
 ]
 
 export const TimeLineData = [
-  { year: 2020, text: 'Started my journey' },
+  { year: 2020, text: 'Pursued B.Tech in Computer Science from VIT Bhopal' },
   {
     year: 2021,
     text: 'Learned HTML , CSS and JavaScript and made some basic projects',

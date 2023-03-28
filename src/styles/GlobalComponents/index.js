@@ -100,8 +100,8 @@ export const SectionDivider = styled.div`
 `
 export const SectionSubText = styled.p`
   max-width: 800px;
-  font-weight: 300;
-  font-size: 18px;
+  font-weight: 500;
+  font-size: 22px;
   line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
 
